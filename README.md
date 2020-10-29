@@ -15,10 +15,11 @@ Minecraft server website Inàran
   - Link alla mappa dinamica con immagine
   - Lore di gioco: [*]
   - Presentazione delle 4 fazioni
-    - Fazione 1
-    - Fazione 2
-    - Fazione 3
-    - Fazione 4
+    - Iskian - giallo
+    - Narisia - blu
+    - Virias - verde
+    - Casir - rosso
+    
   - Breve rimando alla sezione delle FAQ
   - Breve rimando al forum
 - FAQ
