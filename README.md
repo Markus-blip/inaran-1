@@ -60,19 +60,3 @@ Uno dei più importanti scopi del Vault è mostrare quale nazione sia la piu' fo
 
 
 
-_________________________________________________________________________________________________
-
-
-
-Virias
-Airin 
-Casir
-Honoa
-Iskian
-Oalag
-Narisia
-Glari
-Phritria
-
-
-
