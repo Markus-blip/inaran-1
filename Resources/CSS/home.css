@@ -3,40 +3,50 @@
   margin: 0;
   padding: 0;
   line-height: 1.6;
+  font-family: Roboto;
 }
 
-/* header */
-
-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
+html,
+body {
+  height: 100%;
 }
 
-header nav {
+/* nav */
+
+nav {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
   width: 100%;
+  position: fixed;
+  z-index: 1;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  top: 0;
 }
 
-header nav ul {
+nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* position: fixed; */
-  margin-top: 20px;
-  margin-bottom: 20px;
   list-style-type: none;
 }
 
-header nav ul li {
+nav ul li {
   display: inline;
   margin-left: 4%;
   margin-right: 4%;
 }
 
-header nav ul li a {
+nav ul li a {
+  color: rgb(85, 85, 85);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+nav ul li a:hover {
   color: rgb(41, 41, 41);
+  text-shadow: 0.1px 0.1px 0.1px;
 }
 
 .linkHomeMenu {
@@ -44,16 +54,54 @@ header nav ul li a {
   height: 48px;
 }
 
-h1 {
-  margin-top: 20px;
+.linkHomeMenu:hover {
+  opacity: 75%;
 }
 
-.headerPictureContainer {
-  height: 50px;
-  background-image: url(../MEDIA/HomePage/Photo/Header.jpeg);
+/* header */
+
+header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  height: 80%;
+  margin-top: 75px;
+  background-image: url(../MEDIA/HomePage/Photo/Header.jpg);
+  background-color: rgb(31, 31, 31);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.heroTextContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: rgb(44, 39, 85); */
+  background-image: linear-gradient(
+    180deg,
+    rgb(75, 62, 131),
+    rgb(48, 241, 232)
+  );
+  padding: 20px;
+  /* margin-top: 5px; */
+  /* position: absolute; */
+  /* bottom: 10%;
+  left: 10%; */
+  /* border-radius: 0.5em; */
+}
+
+.heroText {
+  color: rgba(255, 255, 255, 0.89);
+  letter-spacing: 0.2em;
+  text-align: center;
+}
+
+.heroParagraph {
+  color: white;
+  text-align: left;
 }
 
 /* header */
