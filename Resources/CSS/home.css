@@ -20,7 +20,7 @@ nav {
   position: fixed;
   z-index: 1;
   padding-top: 15px;
-  padding-bottom: 10px;
+  padding-bottom: 3px;
   top: 0;
 }
 
@@ -47,6 +47,7 @@ nav ul li a {
 nav ul li a:hover {
   color: rgb(41, 41, 41);
   text-shadow: 0.1px 0.1px 0.1px;
+  /* text-decoration: line-through; */
 }
 
 .linkHomeMenu {
@@ -65,15 +66,48 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  align-items: center;
   width: 100%;
-  height: 80%;
-  margin-top: 75px;
+  height: 100%;
+  /* margin-top: 75px; */
   background-image: url(../MEDIA/HomePage/photo/Header.jpg);
   background-color: rgb(31, 31, 31);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.headerIcon {
+  text-align: center;
+}
+
+.headerIcon img {
+  width: 65%;
+  opacity: 90%;
+  margin-bottom: 2em;
+  /* border: 3px solid rgb(255, 255, 255); */
+  border-radius: 100%;
+  box-shadow: 3px 3px 15px white, -3px -3px 15px white;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0% {
+    box-shadow: 3px 3px 15px rgba(255, 255, 255, 0),
+      -3px -3px 15px rgba(255, 255, 255, 0);
+  }
+  50% {
+    box-shadow: 3px 3px 15px white, -3px -3px 15px white;
+  }
+  100% {
+    box-shadow: 3px 3px 15px rgba(255, 255, 255, 0),
+      -3px -3px 15px rgba(255, 255, 255, 0);
+  }
+}
+
+/* header */
 
 .heroTextContainer {
   display: flex;
@@ -103,5 +137,3 @@ header {
   color: white;
   text-align: left;
 }
-
-/* header */
