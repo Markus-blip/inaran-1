@@ -1,14 +1,23 @@
+
+/* 
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Permanent Marker', cursive;
+  font-family: 'Roboto', sans-serif;
+*/
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
 }
 
 html,
 body {
   height: 100%;
+  background-color: cadetblue;
 }
 
 /* nav */
@@ -26,12 +35,26 @@ nav {
 
 nav ul {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   list-style-type: none;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
-nav ul li {
+.menuVoci {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.menuSimboli {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+nav ul .menuVoci li {
   display: inline;
   margin-left: 4%;
   margin-right: 4%;
@@ -47,18 +70,35 @@ nav ul li a {
 nav ul li a:hover {
   color: rgb(41, 41, 41);
   text-shadow: 0.1px 0.1px 0.1px;
-  /* text-decoration: line-through; */
 }
 
 .linkHomeMenu {
-  width: 48px;
-  height: 48px;
+  width: 52px;
+  height: 52px;
+}
+
+.login {
+  width: 25px;
+  height: 20px;
+  margin-top: 0.3em;
+  margin-left: 2em;
+  opacity: 65%;
+}
+
+.login:hover {
+  opacity: 100%;
+}
+
+.scrittaInaranHomeMenu {
+  width: 9em;
+  padding-left: 1em;
 }
 
 .linkHomeMenu:hover {
   opacity: 75%;
 }
 
+/* nav */
 /* header */
 
 header {
@@ -69,7 +109,6 @@ header {
   align-items: center;
   width: 100%;
   height: 100%;
-  /* margin-top: 75px; */
   background-image: url(../MEDIA/HomePage/photo/Header.jpg);
   background-color: rgb(31, 31, 31);
   background-position: center;
@@ -108,32 +147,174 @@ header {
 }
 
 /* header */
+/* main */
 
-.heroTextContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* background-color: rgb(44, 39, 85); */
-  background-image: linear-gradient(
-    180deg,
-    rgb(75, 62, 131),
-    rgb(48, 241, 232)
-  );
-  padding: 20px;
-  /* margin-top: 5px; */
-  /* position: absolute; */
-  /* bottom: 10%;
-  left: 10%; */
-  /* border-radius: 0.5em; */
+.spaces {
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 23%, rgba(95,158,160,1) 100%);
 }
 
-.heroText {
-  color: rgba(255, 255, 255, 0.89);
-  letter-spacing: 0.2em;
+h2 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 8rem;
+  letter-spacing: 0.5rem;
+  color: rgb(40, 40, 40);
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  color: rgb(40, 40, 40);
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+}
+
+span {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+hr.aQuarterLine {
+  border-top: 3px solid rgb(40, 40, 40);
+  width: 5rem;
+}
+
+/* main */
+/* main Inàran */
+
+#Inaran {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.inaranColumnRight, .inaranColumnLeft {
+  width: 50%;
+  height: 100%;
+}
+
+.inaranColumnLeft {
+  padding: 2rem;
+  background-color: white;
+}
+
+.inaranColumnRight {
+  background-image: url(../MEDIA/HomePage/photo/Vault.jpg);
+  background-color: rgb(31, 31, 31);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* main Inàran */
+/* main linkUtili */
+
+#linkUtili {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+
+.linkUtili {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+  width: 80%;
+  height: 80%;
+  background-color: rgb(207, 207, 207);
+  border-radius: 5rem 0rem;
+}
+
+.containerUsefulLink {
+  width: 80%;
+  margin-bottom: 2rem;
+}
+
+.usefulLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.buttonLinkUtili {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+  cursor: pointer
+}
+
+.buttonText {
+  background-color: #293556;
+  border-radius: 10rem 0rem 0rem 10rem;
+  padding: 1rem;
+  width: 13rem;
+  height: 3.5rem;
   text-align: center;
 }
 
-.heroParagraph {
+.buttonText p {
   color: white;
-  text-align: left;
+  font-weight: bold;
+  text-transform: uppercase;
 }
+
+.buttonAction {
+  background-color: #4d3187;
+  border-radius: 0rem 10rem 10rem 0rem;
+  padding: 1rem;
+  width: 7rem;
+  height: 3.5rem;
+  text-align: center;
+}
+
+.buttonAction p {
+  color: #4dd8d3;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: font-size 0.5s, color 0.5s;
+}
+
+.buttonAction p:hover {
+  font-size: 1.1rem;
+  color: white;
+}
+
+/* main linkUtili */
+/* main gameplay */
+
+#gameplay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 120vh;
+  background-color: white;
+}
+
+.gameplayFrame {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+  width: 80%;
+  height: 80%;
+  background-color: rgb(227, 227, 227);
+  border-radius: 5rem 0rem;
+  padding: 3rem;
+}
+
+/* main gameplay */
