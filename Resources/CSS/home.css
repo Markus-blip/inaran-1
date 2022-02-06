@@ -44,7 +44,7 @@ nav ul {
 
 .menuVoci {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -204,8 +204,9 @@ hr.aQuarterLine {
 }
 
 .inaranColumnLeft {
-  padding: 2rem;
+  padding: 0rem 4rem;
   background-color: white;
+  margin-top: -1.5rem;
 }
 
 .inaranColumnRight {
