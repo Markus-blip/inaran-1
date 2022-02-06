@@ -236,7 +236,7 @@ hr.aQuarterLine {
 }
 
 .columnRight {
-  background-image: url(../MEDIA/HomePage/Photo/Vault.jpg);
+  background-image: url(../MEDIA/HomePage/photo/Vault.jpg);
   background-color: rgb(31, 31, 31);
   background-position: center;
   background-repeat: no-repeat;
@@ -244,7 +244,7 @@ hr.aQuarterLine {
 }
 
 .columnRight.olympia {
-  background-image: url(../MEDIA/HomePage/Photo/Olympia.jpg);
+  background-image: url(../MEDIA/HomePage/photo/Olympia.jpg);
 }
 
 /* main Inàran */
