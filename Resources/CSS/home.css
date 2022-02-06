@@ -16,8 +16,8 @@
 
 html,
 body {
-  height: 100%;
-  background-color: cadetblue;
+  background-color: rgb(246 246 246);
+  width: 100%;
 }
 
 /* nav */
@@ -31,6 +31,7 @@ nav {
   padding-top: 15px;
   padding-bottom: 3px;
   top: 0;
+  height: 10vh;
 }
 
 nav ul {
@@ -108,7 +109,7 @@ header {
   justify-content: flex-end;
   align-items: center;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-image: url(../MEDIA/HomePage/photo/Header.jpg);
   background-color: rgb(31, 31, 31);
   background-position: center;
@@ -124,7 +125,6 @@ header {
   width: 65%;
   opacity: 90%;
   margin-bottom: 2em;
-  /* border: 3px solid rgb(255, 255, 255); */
   border-radius: 100%;
   box-shadow: 3px 3px 15px white, -3px -3px 15px white;
   animation-name: example;
@@ -150,8 +150,13 @@ header {
 /* main */
 
 .spaces {
-  background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgba(255,255,255,1) 23%, rgba(95,158,160,1) 100%);
+  background: rgb(246, 246, 246);
+  height: 10vh;
+}
+
+#InaranStart {
+  height: 10vh;
+  background-color: rgb(246, 246, 246);
 }
 
 h2 {
@@ -174,6 +179,16 @@ p {
   color: rgb(0, 0, 0);
 }
 
+.presentazione {
+  list-style-type: none;
+}
+
+.presentazione li {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+}
+
 span {
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
@@ -191,73 +206,53 @@ hr.aQuarterLine {
 
 .twoColumns {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100vh;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.twoColRev {
+  flex-wrap: wrap-reverse;
 }
 
 .columnRight, .columnLeft {
-  width: 50%;
-  height: 100%;
+  width: 600px;
+  flex-basis: auto;
+  flex-grow: 1;
+  height: 100vh;
 }
 
 .columnLeft {
   padding: 0rem 4rem;
   background-color: white;
-}
-
-.columnLeft h2 {
-  margin-top: -1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .columnRight {
-  background-image: url(../MEDIA/HomePage/photo/Vault.jpg);
+  background-image: url(../MEDIA/HomePage/Photo/Vault.jpg);
   background-color: rgb(31, 31, 31);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.columnRight.olympia {
+  background-image: url(../MEDIA/HomePage/Photo/Olympia.jpg);
+}
+
 /* main Inàran */
 /* main linkUtili */
-
-#linkUtili {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100vh;
-  background-color: white;
-}
-
-.linkUtili {
-  display: flex;
-  flex-direction: column;
-  justify-content:space-around;
-  align-items: center;
-  width: 80%;
-  height: 80%;
-  background-color: rgb(207, 207, 207);
-  border-radius: 5rem 0rem;
-}
-
-.containerUsefulLink {
-  width: 80%;
-  margin-bottom: 2rem;
-}
-
-.usefulLinks {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
 
 .buttonLinkUtili {
   display: flex;
   flex-direction: row;
-  margin: 1rem;
   cursor: pointer
 }
 
@@ -307,6 +302,7 @@ hr.aQuarterLine {
   width: 100%;
   height: 120vh;
   background-color: white;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
 .gameplayFrame {
