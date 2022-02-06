@@ -189,7 +189,7 @@ hr.aQuarterLine {
 /* main */
 /* main Inàran */
 
-#Inaran {
+.twoColumns {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -198,18 +198,21 @@ hr.aQuarterLine {
   height: 100vh;
 }
 
-.inaranColumnRight, .inaranColumnLeft {
+.columnRight, .columnLeft {
   width: 50%;
   height: 100%;
 }
 
-.inaranColumnLeft {
+.columnLeft {
   padding: 0rem 4rem;
   background-color: white;
+}
+
+.columnLeft h2 {
   margin-top: -1.5rem;
 }
 
-.inaranColumnRight {
+.columnRight {
   background-image: url(../MEDIA/HomePage/photo/Vault.jpg);
   background-color: rgb(31, 31, 31);
   background-position: center;
