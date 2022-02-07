@@ -32,32 +32,28 @@ nav {
   padding-bottom: 3px;
   top: 0;
   height: 10vh;
-}
-
-nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  list-style-type: none;
-  padding-left: 3%;
-  padding-right: 3%;
 }
 
 .menuVoci {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  list-style-type: none;
+  padding-right: 3%;
 }
 
 .menuSimboli {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  padding-left: 3%;
 }
 
-nav ul .menuVoci li {
+.menuVoci li {
   display: inline;
-  margin-left: 4%;
   margin-right: 4%;
 }
 
@@ -97,6 +93,29 @@ nav ul li a:hover {
 
 .linkHomeMenu:hover {
   opacity: 75%;
+}
+
+.menuHamburger {
+  cursor: pointer;
+  padding-right: 3%;
+  display: none;
+}
+
+.hambLine {
+  width: 25px;
+  height: 3px;
+  background-color: rgb(85, 85, 85);
+  margin: 3px;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .menuHamburger {
+    display: block;
+  }
+  .menuVoci {
+    display: none;
+  }
 }
 
 /* nav */
@@ -507,3 +526,10 @@ button:hover {
 }
 
 /* footer */
+
+
+
+
+
+
+

@@ -9,10 +9,10 @@
       content="Server di minecraft italiano vanilla con un sistema PVP personalizzabile a seconda di come si preferisce giocare e un mercato interno completo di tantissimi oggetti cosmetici!!!"
     />
     <meta name="robots" content="index,follow" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto"
-      rel="stylesheet"
-    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Permanent+Marker&family=Roboto&display=swap" rel="stylesheet">
 
     <!-- generics -->
     <link
@@ -59,104 +59,180 @@
     <link href="./Resources/CSS/home.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
+
     <nav>
       <ul>
-        <li><a href="./faq.html">Faq</a></li>
-        <li><a href="./membri.html">Membri</a></li>
-        <li>
-          <a href="./index.html"
-            ><img
-              class="linkHomeMenu"
-              src="./Resources/MEDIA/Favicons/Inaran_logo_symbol_128x128.png"
-              alt="Inàran HomePage"
-          /></a>
-        </li>
-        <li><a href="./forum.html">Forum</a></li>
-        <li><a href="./shop.html">Shop</a></li>
+        <div class="menuSimboli">
+          <li>
+            <a href="./index.html"
+              ><img
+                class="linkHomeMenu"
+                src="./Resources/MEDIA/Favicons/Inaran_logo_symbol_128x128.png"
+                alt="Inàran HomePage"
+            /></a>
+          </li>
+          <li>
+            <a href="./index.html"
+              ><img
+                class="scrittaInaranHomeMenu"
+                src="./Resources/MEDIA/HomePage/icons/scrittaInaran.png"
+                alt="Inàran HomePage"
+            /></a>
+          </li>
+        </div>
+        <div class="menuVoci">
+          <li><a href="./regolamento.html">Regolamento</a></li>
+          <li><a href="./membri.html">Membri</a></li>
+          <li><a href="./forum.html">Forum</a></li>
+          <li><a href="./shop.html">Shop</a></li>
+          <li id="login"><a href="./login.html"><img src="./Resources/MEDIA/HomePage/icons/loginPulsante.png" alt="login" class="login"></a></li>
+        </div>
       </ul>
     </nav>
-    <header></header>
-    <div class="heroTextContainer">
-      <h1 class="heroText">Benvenuti su Inàran</h1>
-      <!-- <p class="heroText">Il survival classico con qualcosa in piú</p> -->
-      <br />
-      
-      <p class="heroParagraph">
-        Agli albori ci furono 4 uomini che in armonia colonizzarono il mondo di
-        Ináran, beneficiando delle meraviglie e della vita che l'albero creatore
-        aveva generato. Presto però la cupidigia e la fame di ricchezza prese il
-        sopravvento, i rapporti si inasprirono e la collaborazione cessò. Inizió
-        una rivalità eterna che portò i 4 uomini a competere su ogni aspetto
-        della vita, decisero di dividere il mondo in 4 grandi nazioni e di
-        creare un'efficente rete di infrastrutture capace di collegarle.
-        Lasciarono solo una zona nel mondo che fosse neutra a tutti, centro
-        della rete e interscambio commerciale, il Vault. Uno dei più importanti
-        scopi del Vault è mostrare quale nazione sia la piu' forte al momento,
-        gli altri sono: 
-        <ul>
-          <li>Lo snodo metropolitano </li>
-          <li>Il mercato ufficiale </li>
-          <li>Il collegamento ai diversi piani dimensionali e luoghi principali di Ináran
-            (tra cui lo spawn centrale e Olimpia, zona che
-            ospita le strutture olimpiche).</li>
-        </ul> 
-      </p>
-      <br />
-      <h2 class="heroText">Che cosa ci distingue</h2>
-      <br>
-      <p class="heroParagraph">
-        Il nostro server e' strutturato per offrire un'esperienza di gioco
-        simile a quella che si avverete giocando la classica vanilla survival in
-        single player, con in aggiunta alcuni elementi che potenziano
-        l'esperienza multiplayer. Potrete scegliere di fare parte di una delle 4
-        nazioni dominanti costantemente in guerra tra loro, onorandola con la
-        vita dei vostri nemici, oppure diventare un nomade e vivere una vita
-        tranquilla e pacifica, al riparo da scontri ma ricoprendo comunque un
-        ruolo attivo nella comunità.
-      </p>
-      <br />
-      <p class="heroParagraph">
-        Questo è dunque un server dove il pvp è facoltativo e con un reale
-        sistema per incentivare chi lo ama e tutelare chi lo vuole evitare.
-      </p>
-      <br />
-      <p class="heroParagraph">
-        Per il resto tutte le dinamiche sono quelle proprie della vanilla ad
-        eccezzione della possibilità di poter proteggere con un claim la propria
-        base fin dall'inizio del gioco.
-      </p>
-      <br />
-      <p class="heroParagraph">
-        Amiamo limitare al minimo l'uso dei comandi, infatti gli unici
-        disponibili in gioco sono quelli inerenti la chat e la protezione
-        della propria base. Non ci sono comandi di teletrasporto, set home o
-        simili, insomma, immaginatevi di giocare davvero in single player senza
-        scorciatoie, il buon vecchio zitto e scava! :)
-      </p>
-    </div>
-    <br />
-    <div class=".gameplay"></div>
-    <h1>Inàran Minecraft Server</h1>
-    <br />
-    <p>...work in progress...</p>
-    <h1>Inàran Minecraft Server</h1>
-    <br />
-    <p>...work in progress...</p>
-    <h1>Inàran Minecraft Server</h1>
-    <br />
-    <p>...work in progress...</p>
-    <h1>Inàran Minecraft Server</h1>
-    <br />
-    <p>...work in progress...</p>
-    <h1>Inàran Minecraft Server</h1>
-    <br />
-    <p>...work in progress...</p>
-    <h1>Inàran Minecraft Server</h1>
-    <br />
-    <p>...work in progress...</p>
-    <main></main>
 
-    <footer></footer>
+    <header>
+      <div class="headerIcon">
+        <a href="#InaranStart">
+          <img src="./Resources/MEDIA/HomePage/icons/icons8-scroll-down-90.png" alt="Scroll down">
+        </a>
+      </div>
+    </header>
+
+    <main>
+
+      <div id="InaranStart"></div>
+
+      <section id="Inaran" class="twoColumns">
+        <div class="columnLeft">
+          <h2>Inàran</h2>
+          <!-- <br> -->
+          <hr class="aQuarterLine">
+          <br>
+          <h3>Agli albori ci furono quattro uomini che in armonia colonizzarono il mondo di Ináran, beneficiando delle meraviglie e della vita che l’albero creatore aveva generato.</h3>
+          <p>
+            Presto però la cupidigia e la fame di ricchezza presero il sopravvento, i rapporti si inasprirono e la collaborazione cessò. Inizió una rivalità eterna che portò i quattro uomini a competere su ogni aspetto della vita. 
+            Decisero di dividere il mondo in 4 grandi nazioni e di creare un’efficiente rete di infrastrutture capace di collegarle. 
+            Lasciarono solo una zona nel mondo che fosse neutra a tutti, ora centro della rete e interscambio commerciale, il Vault. 
+            Luogo essenziale di Ináran in cui periodicamente verrà mostrata la superiorità di una nazione rispetto alle altre e dove si potrà beneficiare di diversi servizi:
+          </p>
+          <!-- <br> -->
+          <ul class="presentazione">
+            <li><span>&#8226 </span>Lo snodo metropolitano</li>
+            <li><span>&#8226 </span>Il mercato ufficiale</li>
+            <li><span>&#8226 </span>Il collegamento ai diversi piani dimensionali e luoghi principali di Ináran tra cui la sala Ognidove e Olimpia</li>
+          </ul>
+          <!-- <br> -->
+          <!-- <hr class="aQuarterLine"> -->
+          <br>  
+        </div>
+        <div class="columnRight"></div>
+      </section>
+
+      <div class="spaces"></div>
+
+      <section id="linkUtili" class="twoColumns twoColRev">
+        <div class="columnRight olympia"></div>
+        <div class="columnLeft">
+          <h2>[-_-]</h2>
+          <br>
+          <hr class="aQuarterLine">
+          <h3>Unisci al nostro server copiando l'indirizzo IP e scopri di più su Inàran.</h3>
+          <hr class="aQuarterLine">
+          <br> 
+          <div class="buttonLinkUtili">
+            <div class="buttonText">
+              <p class="buttonTextContent">INDIRIZZO IP</p>
+            </div>
+            <div class="buttonAction">
+              <p class="buttonActionContent">COPIA</p>
+            </div>
+          </div>
+
+          <div class="buttonLinkUtili">
+            <div class="buttonText">
+              <p class="buttonTextContent">mappa dinamica</p>
+            </div>
+            <div class="buttonAction">
+              <p class="buttonActionContent">vai</p>
+            </div>
+          </div>
+
+          <div class="buttonLinkUtili">
+            <div class="buttonText">
+              <p class="buttonTextContent">faq</p>
+            </div>
+            <div class="buttonAction">
+              <p class="buttonActionContent">vai</p>
+            </div>
+          </div>
+
+          <div class="buttonLinkUtili">
+            <div class="buttonText">
+              <p class="buttonTextContent">donazioni</p>
+            </div>
+            <div class="buttonAction">
+              <p class="buttonActionContent">vai</p>
+            </div>
+          </div>
+
+          <br>
+          <br> 
+        </div>
+      </section>
+
+      <div class="spaces"></div>
+
+      <section id="gameplay">
+        <div class="gameplayFrame">
+          <h2>Il Gameplay</h2>
+          <hr class="aQuarterLine">
+          <br>
+          <h3>Il nostro server offre un’esperienza di gioco simile a quella che si avverte giocando la classica vanilla survival in single player, con in aggiunta alcuni elementi che migliorano e promuovono l’esperienza multiplayer. Potrete scegliere di fare parte di una delle quattro nazioni dominanti costantemente in guerra tra loro, costruendo da soli o in compagnia e onorandola con la vita dei vostri nemici, oppure diventare un nomade e vivere una vita tranquilla e pacifica, al riparo da scontri ma ricoprendo comunque un ruolo attivo nella comunità.
+          </h3>
+          <br>
+          <p>Questo è dunque un server dove il pvp è facoltativo e con un reale sistema per incentivare chi lo ama e tutelare chi lo vuole evitare.
+          </p>
+          <p>Per il resto tutte le dinamiche sono quelle proprie della vanilla ad eccezione della possibilità di poter proteggere con un claim la propria base fin dall’inizio del gioco.
+          </p>
+          <p>Amiamo limitare al minimo l’uso dei comandi, infatti, gli unici disponibili in gioco sono quelli inerenti la chat e la protezione della propria base. Non ci sono comandi di teletrasporto, set home o simili, insomma, immaginatevi di giocare davvero in single player senza scorciatoie, il buon vecchio amatissimo zitto e scava! :)
+          </p>
+          <br>
+          <hr class="aQuarterLine">
+        </div>
+      </section>
+
+      <!-- <div class="spaces"></div> -->
+
+    </main>
+
+    <footer>
+      <div class="contatti">
+        <div>
+          <h2>Siamo qui per te!!!</h2>
+          <br>
+          <h3>Per qualsiasi cosa non esitare a contattarci, cercheremo di rispondere il prima possibile.</h3>
+          <br>
+          <p>Un grande saluto dai tuoi admin!</p>
+          <br>
+        </div>
+        <div class="adminHeads">
+          <img class="chick" src="./Resources/MEDIA/HomePage/icons/chickHead.png" alt="">
+          <img class="elo" src="./Resources/MEDIA/HomePage/icons/eloHead.png" alt="">
+          <img class="kal" src="./Resources/MEDIA/HomePage/icons/kalHead.png" alt="">
+        </div>
+      </div>
+      <form action="/" class="decor">
+        <div class="form-left-decoration"></div>
+        <div class="form-right-decoration"></div>
+        <div class="circle"></div>
+        <div class="form-inner">
+          <input type="text" placeholder="Username" required>
+          <input type="email" placeholder="Email" required>
+          <textarea placeholder="Messaggio..." rows="5" required></textarea>
+          <button type="submit" href="/">Invia</button>
+        </div>
+      </form>
+    </footer>
 
     <script src="./Resources/JS/jquery350.js"></script>
     <script src="./Resources/JS/home.js"></script>
