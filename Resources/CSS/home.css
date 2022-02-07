@@ -525,6 +525,10 @@ button:hover {
     font-size: 10px;
   }
 
+  h2 {
+    font-size: 4rem;
+  }
+
   .menuHamburger {
     display: block;
   }
