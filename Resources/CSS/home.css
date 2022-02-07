@@ -149,14 +149,13 @@ header {
 /* header */
 /* main */
 
-.spaces {
-  background: rgb(246, 246, 246);
+#InaranStart, .spaces {
   height: 10vh;
+  background-color: rgb(219, 219, 219);
 }
 
-#InaranStart {
-  height: 10vh;
-  background-color: rgb(246, 246, 246);
+h1 {
+  font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
@@ -223,7 +222,7 @@ hr.aQuarterLine {
   width: 600px;
   flex-basis: auto;
   flex-grow: 1;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .columnLeft {
@@ -300,8 +299,8 @@ hr.aQuarterLine {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 120vh;
   background-color: white;
+  padding: 5rem;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
@@ -310,11 +309,201 @@ hr.aQuarterLine {
   flex-direction: column;
   justify-content:space-around;
   align-items: center;
-  width: 80%;
-  height: 80%;
-  background-color: rgb(227, 227, 227);
+  width: 98%;
+  background-color: rgb(220, 220, 220);
   border-radius: 5rem 0rem;
   padding: 3rem;
 }
 
+.gameplayFrame h3, .gameplayFrame p {
+  align-self: flex-start;
+}
+
 /* main gameplay */
+/* footer */
+
+input, textarea { 
+  outline: none;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background: rgb(25, 15, 48);
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  padding-right: 4rem;
+  padding-left: 1rem;
+  width: 100%;
+}
+
+footer h2 {
+  color: white;
+  font-size: 2rem;
+}
+
+footer h3, footer p {
+  color: white;
+  font-size: 1rem;
+}
+
+footer .contatti {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+form {
+  position: relative;
+  width: 70%;
+  border-radius: 30px;
+  background: #fff;
+}
+
+form, .contatti {
+  min-height: 40vh;
+}
+
+.form-left-decoration,
+.form-right-decoration {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  border-radius: 20px;
+  background: rgb(25, 15, 48);
+}
+
+.form-left-decoration {
+  bottom: 60px;
+  left: -30px;
+}
+
+.form-right-decoration {
+  top: 60px;
+  right: -30px;
+}
+
+.form-left-decoration:before,
+.form-left-decoration:after,
+.form-right-decoration:before,
+.form-right-decoration:after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  border-radius: 30px;
+  background: #fff;
+}
+
+.form-left-decoration:before {
+  top: -20px;
+}
+
+.form-left-decoration:after {
+  top: 20px;
+  left: 10px;
+}
+
+.form-right-decoration:before {
+  top: -20px;
+  right: 0;
+}
+
+.form-right-decoration:after {
+  top: 20px;
+  right: 10px;
+}
+
+.circle {
+  position: absolute;
+  bottom: 80px;
+  left: -55px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.form-inner {
+  padding: 40px;
+}
+
+.form-inner input,
+.form-inner textarea {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 20px;
+  background: rgb(25, 15, 48);
+  color: white;
+}
+
+.form-inner textarea {
+  resize: none;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: none;
+  border-bottom: 4px solid #165e55;
+  background: rgb(25, 15, 48);
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+
+button:hover {
+  background: rgb(11, 7, 21);
+} 
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(255, 255, 255, 0.709);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: rgba(255, 255, 255, 0.709);
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: rgba(255, 255, 255, 0.709);
+}
+
+@media (min-width: 568px) {
+  form {
+    width: 60%;
+  }
+}
+
+.adminHeads {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.adminHeads img {
+  width: 2rem;
+}
+
+.chick {
+  transform: translate(0.2rem, 0.2rem) rotate(-14deg);
+}
+
+.elo {
+  transform: rotate(4deg);
+}
+
+.kal {
+  transform: translate(-0.1rem, 0.45rem) rotate(18deg);
+}
+
+/* footer */
