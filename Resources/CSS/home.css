@@ -109,15 +109,6 @@ nav ul li a:hover {
   border-radius: 15px;
 }
 
-@media screen and (max-width: 768px) {
-  .menuHamburger {
-    display: block;
-  }
-  .menuVoci {
-    display: none;
-  }
-}
-
 /* nav */
 /* header */
 
@@ -526,7 +517,23 @@ button:hover {
 }
 
 /* footer */
+/* Smartphone */
 
+@media screen and (max-width: 768px) {
+
+  * {
+    font-size: 10px;
+  }
+
+  .menuHamburger {
+    display: block;
+  }
+  .menuVoci {
+    display: none;
+  }
+}
+
+/* Smartphone */
 
 
 
