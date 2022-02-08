@@ -529,12 +529,25 @@ button:hover {
     font-size: 12px;
   }
 
+.adminHeads {
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+
+section#gameplay {
+    padding: 2.5rem;
+}
+
+.gameplayFrame {
+    width: auto;
+}
+
   .smartphone {
     display: block;
   }
 
   header {
-    height: 80vh;
+    height: 90vh;
   }
 
 footer {
