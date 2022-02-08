@@ -526,7 +526,7 @@ button:hover {
 @media screen and (max-width: 768px) {
 
   * {
-    font-size: 12px;
+    font-size: 14px;
   }
 
 .adminHeads {
@@ -589,9 +589,33 @@ footer {
   .menuHamburger {
     display: block;
   }
-  .menuVoci {
-    display: none;
-  }
+
+  /* nav smartphone*/
+
+.menuVoci {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(25, 15, 48);
+  color: white;
+}
+
+nav ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 2rem;
+
+}
+
+/* nav smartphone*/
 }
 
 #InaranStart, .spaces {
