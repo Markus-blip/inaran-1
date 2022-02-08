@@ -41,6 +41,10 @@ nav {
   align-items: center;
 }
 
+.closeMenu {
+  display: none;
+}
+
 .menuVoci {
   display: flex;
   justify-content: flex-end;
@@ -602,17 +606,25 @@ footer {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgb(25, 15, 48);
+  background-color: rgb(25 15 48 / 95%);
   color: white;
 }
 
-nav ul li a {
+nav ul li a, .closeMenu p {
   color: rgb(255, 255, 255);
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   font-size: 2rem;
 
+}
+
+.closeMenu {
+  display: block;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-weight: 600;
 }
 
 /* nav smartphone*/
