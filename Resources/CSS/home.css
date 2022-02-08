@@ -621,10 +621,8 @@ nav ul li a, .closeMenu p {
 
 .closeMenu {
   display: block;
-  position: fixed;
-  top: 20px;
-  right: 20px;
   font-weight: 600;
+  align-self: flex-end;
 }
 
 /* nav smartphone*/
