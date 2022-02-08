@@ -597,7 +597,7 @@ footer {
   /* nav smartphone*/
 
 .menuVoci {
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
@@ -623,6 +623,7 @@ nav ul li a, .closeMenu p {
   display: block;
   font-weight: 600;
   align-self: flex-end;
+
 }
 
 /* nav smartphone*/
