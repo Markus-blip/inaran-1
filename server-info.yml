@@ -1,50 +1,56 @@
 ---
-name: "SlimeCraft"
-url: "slimecraft"
+name: "Inàran"
+url: "Inàran"
 hidden: false
 versions:
-  - "1.10"
-  - "1.11"
-  - "1.12"
+  - "1.18"
 categories:
-  - "factions"
   - "vanilla"
-  - "pvp"
+  - "survival"
 staff:
   - Amministratore:
-    - "4c6d0505a27042579503198d3faeecf7"
-    - "451033b42141482fbc5177a55548857b"
-  - Moderatore:
-    - "c2e1c50d13af46e6868a8a589af46df4"
-    - "74affc11b3954035ae6b9b7495439d48"
-  - Builder:
-    - "ece235b1fbb549929a7c98cdd2a85e3b"
-    - "099c51252ebb46e0a540954f20b7c568"
-discord_user: "000000000000000000000"
-www: "https://www.slimecraft.io"
-forum: "https://forum.slimecraft.io"
-telegram: "https://t.me/joinchat/Xv37wTF"
-discord: "https://discord.gg/WPz5F2"
-twitter: "twitter_profile"
-instagram: "instagram_profile"
-teamspeak: "ts.slimecraft.io"
-mumble: "mumble.slimecraft.io"
-query_port: 25565
-theme_color: "#2173c3"
-meta_description: "Il server Minecraft con la descrizione più bella del mondo!"
+    - "b03d7914d65347d9975f31c8e2296bd7"
+    - "012ddb17020b4ef89e8265e3936df36b"
+discord_user: "Eloreth#2952"
+www: "https://www.inaran.it"
+forum: "https://kalsett.github.io/inaran/forum.html"
+telegram: "https://t.me/+Tjzm0ygdQAwyRsXp"
+discord: "https://discord.gg/JjcJXDT9fv"
+theme_color: "#4d3187"
+meta_description: "Il nostro server offre un’esperienza di gioco simile a quella che si avverte giocando la classica vanilla survival in single player, con in aggiunta alcuni elementi che migliorano e promuovono l’esperienza multiplayer. Potrete scegliere di fare parte di una delle quattro nazioni dominanti costantemente in guerra tra loro, costruendo da soli o in compagnia e onorandola con la vita dei vostri nemici, oppure diventare un nomade e vivere una vita tranquilla e pacifica, al riparo da scontri ma ricoprendo comunque un ruolo attivo nella comunità."
 ---
-Descrizione del server in formato Markdown.
+###### [mc.inaran.it]() {:.white--text}
+{:.grey .darken-4}
+{:.text-center}
+{:.pt-2 .pb-2}
+{:.mb-0}
 
-La descrizione deve essere completa fin
-da subito o non verrà accettata.
+![Server logo](https://kalsett.github.io/inaran/Resources/MEDIA/HomePage/photo/Header.jpg)
 
-Prova il nostro sandbox editor per
-lavorare sulla descrizione ed avere
-un'anteprima in tempo reale.
+#### Inàran - Server di minecraft con i baffi
 
-www.minecraft-italia.it/lista-server/markdown-editor
+Il nostro server offre un’esperienza di gioco simile a quella che si avverte giocando la classica vanilla survival in single player, con in aggiunta alcuni elementi che migliorano e promuovono l’esperienza multiplayer. Potrete scegliere di fare parte di una delle quattro nazioni dominanti costantemente in guerra tra loro, costruendo da soli o in compagnia e onorandola con la vita dei vostri nemici, oppure diventare un nomade e vivere una vita tranquilla e pacifica, al riparo da scontri ma ricoprendo comunque un ruolo attivo nella comunità.  {:.text-left}
+
 
 #### Presentazione
-Un server bellissimo. Collegati ora!
+Questo è un server dove il pvp è facoltativo e con un reale sistema per incentivare chi lo ama e tutelare chi lo vuole evitare.
 
-![Server logo](https://www.minecraft-italia.it/images/generic/minecraft.jpg)
+
+Per il resto tutte le dinamiche sono quelle proprie della vanilla ad eccezione della possibilità di poter proteggere con un claim la propria base fin dall’inizio del gioco.
+
+Amiamo limitare al minimo l’uso dei comandi, infatti, gli unici disponibili in gioco sono quelli inerenti la chat e la protezione della propria base. Non ci sono comandi di teletrasporto, set home o simili, insomma, immaginatevi di giocare davvero in single player senza scorciatoie, il buon vecchio amatissimo zitto e scava! :) 
+
+Collegati ora su [mc.inaran.it]()!
+
+
+**Servizi del server**{:.pt-2}
+* Possibilità di collegarsi alle ghiacciovie del server
+* Economia interna
+* Negozi di vendita cosmetici (oggetti particolari e mapArt)
+* Minigames
+* Tornei fra fazioni e giocatori
+* Premi speciali
+
+
+#### Sito internet
+https://inaran.it/
