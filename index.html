@@ -240,19 +240,48 @@
           <img class="kal" src="./Resources/MEDIA/HomePage/icons/kalHead.png" alt="">
         </div>
       </div>
-      <form action="/" class="decor">
+      <form action="https://postmail.invotes.com/send" class="decor" method="post" id="email_form">
+      
         <div class="form-left-decoration"></div>
         <div class="form-right-decoration"></div>
         <div class="circle"></div>
         <div class="form-inner">
-          <input type="text" placeholder="Username" required>
-          <input type="email" placeholder="Email" required>
-          <textarea placeholder="Messaggio..." rows="5" required></textarea>
-          <button type="submit" href="/">Invia</button>
+        
+          <input type="hidden" name="subject" value="Messaggio da inaran.it" />
+        <!--
+          <input type="text" placeholder="Username">
+           -->
+          <input type="email" name="reply_to" placeholder="Email" required>
+          
+          <textarea name="text" placeholder="Messaggio..." rows="5" required></textarea>
+          <input type="hidden" name="access_token" value="8rnckt4ap7ddt9usgm3dqz96" />
+            <!-- return urls can be fully qualified -OR-
+                start with / for root relative -OR-
+                start with . for url relative 
+                
+                ToDo:
+                --> 
+          <input type="hidden" name="success_url" value="/index.html" />
+          <input type="hidden" name="error_url" value="/index.html" />
+          
+          
+          <input id="submit_form" type="submit" value="Invia"/>
+          
         </div>
       </form>
     </footer>
-
+    
+    <!-- optional, prevents the submit button from being pressed more than once -->
+    <script>
+	    var submitButton = document.getElementById("submit_form");
+	    var form = document.getElementById("email_form");
+	    form.addEventListener("submit", function (e) {
+	        setTimeout(function() {
+	            submitButton.value = "Sending...";
+	            submitButton.disabled = true;
+	        }, 1);
+	    });
+    </script> 
     <script src="./Resources/JS/jquery350.js"></script>
     <script src="./Resources/JS/home.js"></script>
   </body>
