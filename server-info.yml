@@ -1,0 +1,50 @@
+---
+name: "SlimeCraft"
+url: "slimecraft"
+hidden: false
+versions:
+  - "1.10"
+  - "1.11"
+  - "1.12"
+categories:
+  - "factions"
+  - "vanilla"
+  - "pvp"
+staff:
+  - Amministratore:
+    - "4c6d0505a27042579503198d3faeecf7"
+    - "451033b42141482fbc5177a55548857b"
+  - Moderatore:
+    - "c2e1c50d13af46e6868a8a589af46df4"
+    - "74affc11b3954035ae6b9b7495439d48"
+  - Builder:
+    - "ece235b1fbb549929a7c98cdd2a85e3b"
+    - "099c51252ebb46e0a540954f20b7c568"
+discord_user: "000000000000000000000"
+www: "https://www.slimecraft.io"
+forum: "https://forum.slimecraft.io"
+telegram: "https://t.me/joinchat/Xv37wTF"
+discord: "https://discord.gg/WPz5F2"
+twitter: "twitter_profile"
+instagram: "instagram_profile"
+teamspeak: "ts.slimecraft.io"
+mumble: "mumble.slimecraft.io"
+query_port: 25565
+theme_color: "#2173c3"
+meta_description: "Il server Minecraft con la descrizione più bella del mondo!"
+---
+Descrizione del server in formato Markdown.
+
+La descrizione deve essere completa fin
+da subito o non verrà accettata.
+
+Prova il nostro sandbox editor per
+lavorare sulla descrizione ed avere
+un'anteprima in tempo reale.
+
+www.minecraft-italia.it/lista-server/markdown-editor
+
+#### Presentazione
+Un server bellissimo. Collegati ora!
+
+![Server logo](https://www.minecraft-italia.it/images/generic/minecraft.jpg)
