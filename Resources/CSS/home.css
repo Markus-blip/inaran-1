@@ -66,15 +66,16 @@ nav {
 }
 
 nav ul li a {
-  color: rgb(85, 85, 85);
+  color: #293556;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.2em;
 }
 
 nav ul li a:hover {
-  color: rgb(41, 41, 41);
+  color: #4d3187;
   text-shadow: 0.1px 0.1px 0.1px;
+  font-weight: 700;
 }
 
 .linkHomeMenu {
@@ -280,6 +281,8 @@ hr.aQuarterLine {
   width: 13rem;
   height: 3.5rem;
   text-align: center;
+  transition-property: background-color;
+  transition-duration: 1.5s;
 }
 
 .buttonText p {
@@ -295,6 +298,8 @@ hr.aQuarterLine {
   width: 7rem;
   height: 3.5rem;
   text-align: center;
+  transition-property: background-color;
+  transition-duration: 1.5s;
 }
 
 .buttonAction p {
@@ -308,6 +313,11 @@ hr.aQuarterLine {
   font-size: 1.1rem;
   color: white;
 }
+
+.buttonLinkUtili a {
+  text-decoration: none;
+}
+
 
 /* main linkUtili */
 /* main gameplay */
@@ -513,16 +523,27 @@ button:hover {
 }
 
 .chick {
-  transform: translate(0.2rem, 0.2rem) rotate(-14deg);
+  transform: rotate(-14deg);
 }
+/* translate(0.2rem, 0.2rem)  */
 
 .elo {
   transform: rotate(4deg);
 }
 
 .kal {
-  transform: translate(-0.1rem, 0.45rem) rotate(18deg);
+  transform: rotate(18deg);
 }
+/* translate(-0.1rem, 0.45rem) */
+
+.elo:hover, .kal:hover, .chick:hover {
+  -webkit-animation:spin 0.5s linear 1;
+  -moz-animation:spin 0.5s linear 1;
+  animation:spin 0.5s linear 1;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 /* footer */
 /* Smartphone */

@@ -9,10 +9,10 @@
       content="Server di minecraft italiano vanilla con un sistema PVP personalizzabile a seconda di come si preferisce giocare e un mercato interno completo di tantissimi oggetti cosmetici!!!"
     />
     <meta name="robots" content="index,follow" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto"
-      rel="stylesheet"
-    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Permanent+Marker&family=Roboto&display=swap" rel="stylesheet">
 
     <!-- generics -->
     <link
@@ -59,105 +59,157 @@
     <link href="./Resources/CSS/home.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
+
     <nav>
-      <ul>
-        <li><a href="./faq.html">Faq</a></li>
-        <li><a href="./membri.html">Membri</a></li>
-        <li>
-          <a href="./index.html"
+
+      <div class="menuSimboli">
+
+        <a href="./index.html"
             ><img
               class="linkHomeMenu"
               src="./Resources/MEDIA/Favicons/Inaran_logo_symbol_128x128.png"
               alt="Inàran HomePage"
-          /></a>
-        </li>
+        /></a>
+
+        <a href="./index.html"
+            ><img
+              class="scrittaInaranHomeMenu"
+              src="./Resources/MEDIA/HomePage/icons/scrittaInaran.png"
+              alt="Inàran HomePage"
+        /></a>
+
+      </div>
+
+      <ul class="menuVoci">
+        <div class="closeMenu">
+          <p>X</p>
+        </div>
+        <li><a href="./regolamento.html">Regolamento</a></li>
+        <li><a href="./membri.html">Membri</a></li>
         <li><a href="./forum.html">Forum</a></li>
         <li><a href="./shop.html">Shop</a></li>
+        <li id="login"><a href="./login.html"><img src="./Resources/MEDIA/HomePage/icons/loginPulsante.png" alt="login" class="login"></a></li>
       </ul>
+
+      <div class="menuHamburger">
+        <div class="hambLine 1"></div>
+        <div class="hambLine 2"></div>
+        <div class="hambLine 3"></div>
+      </div>
+
     </nav>
-    <header></header>
-    <div class="heroTextContainer">
-      <h1 class="heroText">Benvenuti su Inàran</h1>
-      <!-- <p class="heroText">Il survival classico con qualcosa in piú</p> -->
-      <br />
+
+    <header>
+      <div class="headerIcon">
+        <a href="#InaranStart">
+          <img src="./Resources/MEDIA/HomePage/icons/icons8-scroll-down-90.png" alt="Scroll down">
+        </a>
+      </div>
+    </header>
+
+    <main>
+
+      <div id="InaranStart"></div>
+
+      <section id="gameplay">
+        <div class="gameplayFrame">
+          <h2>Regolamento</h2>
+          <hr class="aQuarterLine">
+          <br>
+          <h3>Prenditi un momento per rinfrescarti le regole, ti aspettiamo su Inàran!
+          </h3>
+          <br>
+          <ul class="presentazione">
+            <li><span>&#8226 </span>È obbligatorio mantenere un atteggiamento educato e rispettoso sia nella chat che nel gameplay.</li>
+            <br>
+            <li><span>&#8226 </span>È limitato l'uso dei CAPS in chat a singole parole, è vietato ripetere i messaggi continuamente.</li>
+            <br>
+            <li><span>&#8226 </span>È concesso l'utilizzo della mod Optifine e di qualsiasi pacchetto grafico. Sono vietate tutte le altre mod, i trucchi, i comandi non esplicitamente concessi, le hack di qualsiasi genere e l'utilizzo di xray. È vietato anche lo sfruttamento volontario di bug di gioco a proprio vantaggio (duplicazione oggetti, perforazione badrock, ecc.). 
+              In generale è vietato utilizzare pratiche che non siano quelle preveste da una normale vanilla in singleplayer a meno che palesemente concesse dallo staff.</li>
+            <br>
+            <li><span>&#8226 </span>Non ci sono limitazioni al PVP e il giocatore che perde il proprio inventario come conseguenza di un combattimento o di qualsiasi altra evenienza non ha diritto a rimborsi.
+              È tuttavia vietata la persecuzione continua e rindondante di un player. Come buona norma di condotta, dopo aver ucciso un giocatore è consigliato concentrarsi su altri player o qulsiasi altra attività a meno che non sia palesato un interesse di entrambi i giocatori (o gruppi di essi) a continuare le ostilità.</li>
+            <br>
+            <li><span>&#8226 </span>È possibile distruggere o appropriarsi di zone senza il claim. Tuttavia, nel limite delle possibilità e del buon senso, è caldamente suggerito non interagire mai con le costruzioni di altri player a meno che non sia stato esplicitamente concesso.
+              Una buona pratica di gioco è quella di mantenersi ad una distanza di almeno 200 blocchi dalle costruzioni di altri player.</li>
+            <br>
+            <li><span>&#8226 </span>È vietato griffare in modo selvaggio e senza alcun senso il mondo di gioco. È molto triste volare nel server e trovare buchi derivati da esplosioni senza alcuno scopo. Pena il ban permamente a discrezione dello staff.</li>
+            <br>
+            <li><span>&#8226 </span>È vietata qualsiasi richiesta allo staff di favori personali e di aiuto per mezzo dei comandi. È permessa e incentivata invece la denuncia di eventuali bug o comportamenti inappropriati di altri player. Tuttavia se lo staff dovesse reputare tale denuncia come un tentativo di persecuzione allora procederà con un allontanamento permanente del persecutore. </li>
+            <br>
+            <li><span>&#8226 </span>È possibile richiedere allo staff l'ufficializzazione di una città. Potrete trovare ulteriori informazioni per procedere correttamente alla richiesta nel forum.
+              I cittadini di una città, entro i confini della stessa, sono obbligati a rispettare oltre al regolamento del server anche quello cittadino.
+              Non ci sono limiti particolari alla creazione del regolamento cittadino purchè le norme in esso contenute non entrino in diretto conflitto con quelle generali del server.</li>
+            <br>
+            <li><span>&#8226 </span>Lo staff si riserva il diritto di modificare il regolamento in ogni momento e applicare sanzioni ai player nel caso in cui reputi una situazione pericolosa al quieto svolgimento della vita di server.</li>
+          </ul>
+          <br>
+          <hr class="aQuarterLine">
+        </div>
+      </section>
+
+      <div class="spaces"></div>
+
+    </main>
+
+    <footer>
+      <div class="contatti">
+        <div>
+          <h2>Siamo qui per te!!!</h2>
+          <br>
+          <h3>Per qualsiasi cosa non esitare a contattarci, cercheremo di rispondere il prima possibile.</h3>
+          <br>
+          <p>Un grande saluto dai tuoi admin!</p>
+          <br>
+        </div>
+        <div class="adminHeads">
+          <img class="chick" src="./Resources/MEDIA/HomePage/icons/chickHead.png" alt="">
+          <img class="elo" src="./Resources/MEDIA/HomePage/icons/eloHead.png" alt="">
+          <img class="kal" src="./Resources/MEDIA/HomePage/icons/kalHead.png" alt="">
+        </div>
+      </div>
+      <form action="https://postmail.invotes.com/send" class="decor" method="post" id="email_form">
       
-      <p class="heroParagraph">
-        Agli albori ci furono 4 uomini che in armonia colonizzarono il mondo di
-        Ináran, beneficiando delle meraviglie e della vita che l'albero creatore
-        aveva generato. Presto però la cupidigia e la fame di ricchezza prese il
-        sopravvento, i rapporti si inasprirono e la collaborazione cessò. Inizió
-        una rivalità eterna che portò i 4 uomini a competere su ogni aspetto
-        della vita, decisero di dividere il mondo in 4 grandi nazioni e di
-        creare un'efficente rete di infrastrutture capace di collegarle.
-        Lasciarono solo una zona nel mondo che fosse neutra a tutti, centro
-        della rete e interscambio commerciale, il Vault. Uno dei più importanti
-        scopi del Vault è mostrare quale nazione sia la piu' forte al momento,
-        gli altri sono: 
-        <ul>
-          <li>Lo snodo metropolitano </li>
-          <li>Il mercato ufficiale </li>
-          <li>Il collegamento ai diversi piani dimensionali e luoghi principali di Ináran
-            (tra cui lo spawn centrale e Olimpia, zona che
-            ospita le strutture olimpiche).</li>
-        </ul> 
-      </p>
-      <br />
-      <h2 class="heroText">Che cosa ci distingue</h2>
-      <br>
-      <p class="heroParagraph">
-        Il nostro server e' strutturato per offrire un'esperienza di gioco
-        simile a quella che si avverete giocando la classica vanilla survival in
-        single player, con in aggiunta alcuni elementi che potenziano
-        l'esperienza multiplayer. Potrete scegliere di fare parte di una delle 4
-        nazioni dominanti costantemente in guerra tra loro, onorandola con la
-        vita dei vostri nemici, oppure diventare un nomade e vivere una vita
-        tranquilla e pacifica, al riparo da scontri ma ricoprendo comunque un
-        ruolo attivo nella comunità.
-      </p>
-      <br />
-      <p class="heroParagraph">
-        Questo è dunque un server dove il pvp è facoltativo e con un reale
-        sistema per incentivare chi lo ama e tutelare chi lo vuole evitare.
-      </p>
-      <br />
-      <p class="heroParagraph">
-        Per il resto tutte le dinamiche sono quelle proprie della vanilla ad
-        eccezzione della possibilità di poter proteggere con un claim la propria
-        base fin dall'inizio del gioco.
-      </p>
-      <br />
-      <p class="heroParagraph">
-        Amiamo limitare al minimo l'uso dei comandi, infatti gli unici
-        disponibili in gioco sono quelli inerenti la chat e la protezione
-        della propria base. Non ci sono comandi di teletrasporto, set home o
-        simili, insomma, immaginatevi di giocare davvero in single player senza
-        scorciatoie, il buon vecchio zitto e scava! :)
-      </p>
-    </div>
-    <br />
-    <div class=".gameplay"></div>
-    <h1>Inàran Minecraft Server</h1>
-    <br />
-    <p>...work in progress...</p>
-    <h1>Inàran Minecraft Server</h1>
-    <br />
-    <p>...work in progress...</p>
-    <h1>Inàran Minecraft Server</h1>
-    <br />
-    <p>...work in progress...</p>
-    <h1>Inàran Minecraft Server</h1>
-    <br />
-    <p>...work in progress...</p>
-    <h1>Inàran Minecraft Server</h1>
-    <br />
-    <p>...work in progress...</p>
-    <h1>Inàran Minecraft Server</h1>
-    <br />
-    <p>...work in progress...</p>
-    <main></main>
-
-    <footer></footer>
-
+        <div class="form-left-decoration"></div>
+        <div class="form-right-decoration"></div>
+        <div class="circle"></div>
+        <div class="form-inner">
+        
+          <input type="hidden" name="subject" value="Messaggio da inaran.it" />
+        <!--
+          <input type="text" placeholder="Username">
+           -->
+          <input type="email" name="reply_to" placeholder="Email" required>
+          
+          <textarea name="text" placeholder="Messaggio..." rows="5" required></textarea>
+          <input type="hidden" name="access_token" value="8rnckt4ap7ddt9usgm3dqz96" />
+            <!-- return urls can be fully qualified -OR-
+                start with / for root relative -OR-
+                start with . for url relative 
+                
+                ToDo:
+                --> 
+          <input type="hidden" name="success_url" value="/index.html" />
+          <input type="hidden" name="error_url" value="/index.html" />
+          
+          
+          <input id="submit_form" type="submit" value="Invia"/>
+          
+        </div>
+      </form>
+    </footer>
+    
+    <!-- optional, prevents the submit button from being pressed more than once -->
+    <script>
+	    var submitButton = document.getElementById("submit_form");
+	    var form = document.getElementById("email_form");
+	    form.addEventListener("submit", function (e) {
+	        setTimeout(function() {
+	            submitButton.value = "Sending...";
+	            submitButton.disabled = true;
+	        }, 1);
+	    });
+    </script> 
     <script src="./Resources/JS/jquery350.js"></script>
     <script src="./Resources/JS/home.js"></script>
   </body>
