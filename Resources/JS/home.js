@@ -2,8 +2,9 @@ let btnLU = document.getElementsByClassName('buttonLinkUtili');
 let btnT = document.getElementsByClassName('buttonText');
 let btnTC = document.getElementsByClassName('buttonTextContent');
 let btnA = document.getElementsByClassName('buttonAction');
-
-
+let btnMenuHam = document.getElementsByClassName('menuHamburger')[0];
+let menuVoci = document.getElementsByClassName('menuVoci')[0];
+let closeMenuVoci = document.getElementById('closeMenuHam');
 
 // Buttons
 // First button
@@ -71,3 +72,14 @@ function copyText() {
   document.execCommand("copy");
   $('#eliminare').remove();
 }
+
+
+
+
+
+btnMenuHam.addEventListener('click', function(event) {
+  menuVoci.style.display = 'flex';
+});
+closeMenuVoci.addEventListener('click', function() {
+  menuVoci.style.display = 'none';
+});
