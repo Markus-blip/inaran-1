@@ -76,10 +76,12 @@ function copyText() {
 
 
 
-
+// Per azionare e disazionare il menu nello smartphone
 btnMenuHam.addEventListener('click', function(event) {
+  btnMenuHam.style.display = 'none'
   menuVoci.style.display = 'flex';
 });
-closeMenuVoci.addEventListener('click', function() {
+closeMenuVoci.addEventListener('click', function(event) {
   menuVoci.style.display = 'none';
+  btnMenuHam.style.display = 'block'
 });
