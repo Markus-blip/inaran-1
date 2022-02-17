@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Inàran | Server Minecraft Italiano</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Server di minecraft italiano vanilla con un sistema PVP personalizzabile a seconda di come si preferisce giocare e un mercato interno completo di tantissimi oggetti cosmetici!!!"
+    />
+    <meta name="robots" content="index,follow" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Permanent+Marker&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- generics -->
+    <link
+      rel="icon"
+      href="./Resources/MEDIA/Favicons/Inaran_logo_symbol_32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      href="./Resources/MEDIA/Favicons/Inaran_logo_symbol_128x128.png"
+      sizes="128x128"
+    />
+    <link
+      rel="icon"
+      href="./Resources/MEDIA/Favicons/Inaran_logo_symbol_192x192.png"
+      sizes="192x192"
+    />
+
+    <!-- Android -->
+    <link
+      rel="shortcut icon"
+      href="./Resources/MEDIA/Favicons/Inaran_logo_symbol_196x196.png"
+      sizes="196x196"
+    />
+
+    <!-- iOS -->
+    <link
+      rel="apple-touch-icon"
+      href="./Resources/MEDIA/Favicons/Inaran_logo_symbol_152x152.png"
+      sizes="152x152"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="./Resources/MEDIA/Favicons/Inaran_logo_symbol_167x167.png"
+      sizes="167x167"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="./Resources/MEDIA/Favicons/Inaran_logo_symbol_180x180.png"
+      sizes="180x180"
+    />
+
+    <!-- CSS -->
+    <link href="./Resources/CSS/home.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+
+    <nav>
+
+      <div class="menuSimboli">
+
+        <a href="./index.html"
+            ><img
+              class="linkHomeMenu"
+              src="./Resources/MEDIA/Favicons/Inaran_logo_symbol_128x128.png"
+              alt="Inàran HomePage"
+        /></a>
+
+        <a href="./index.html"
+            ><img
+              class="scrittaInaranHomeMenu"
+              src="./Resources/MEDIA/HomePage/icons/scrittaInaran.png"
+              alt="Inàran HomePage"
+        /></a>
+
+      </div>
+
+      <ul id="menuVoci" class="menuVoci">
+        <div class="closeMenu">
+          <p id="closeMenuHam">X</p>
+        </div>
+        <li><a href="./regolamento.html">Regolamento</a></li>
+        <li><a href="./membri.html">Membri</a></li>
+        <li><a href="./forum.html">Forum</a></li>
+        <li><a href="./shop.html">Shop</a></li>
+        <li id="login"><a href="./login.html"><img src="./Resources/MEDIA/HomePage/icons/loginPulsante.png" alt="login" class="login"></a></li>
+      </ul>
+
+      <div id="menuHamburger" class="menuHamburger">
+        <div class="hambLine 1"></div>
+        <div class="hambLine 2"></div>
+        <div class="hambLine 3"></div>
+      </div>
+
+    </nav>
+
+    <header>
+      <div class="headerIcon">
+        <a href="#InaranStart">
+          <img src="./Resources/MEDIA/HomePage/icons/icons8-scroll-down-90.png" alt="Scroll down">
+        </a>
+      </div>
+    </header>
+
+    <main>
+
+      <div id="InaranStart"></div>
+
+      <section id="gameplay">
+        <div class="gameplayFrame">
+          <h2>...[-_-]...</h2>
+          <br class="smartphone">
+          <hr class="aQuarterLine">
+          <br>
+          <h3>Stiamo ancora lavorando alla costruzione di questa pagina...Di tanto in tanto controlla!
+          </h3>
+          <br>
+          <p>Cercheremo di completare questa sezione il prima possibile, nel frattempo ci vediamo in game :)
+          </p>
+          </p>
+          <br>
+          <hr class="aQuarterLine">
+        </div>
+      </section>
+
+      <div class="spaces"></div>
+
+    </main>
+
+    <footer>
+      <div class="contatti">
+        <div>
+          <h2>Siamo qui per te!!!</h2>
+          <br>
+          <h3>Per qualsiasi cosa non esitare a contattarci, cercheremo di rispondere il prima possibile.</h3>
+          <br>
+          <p>Un grande saluto dai tuoi admin!</p>
+          <br>
+        </div>
+        <div class="adminHeads">
+          <img class="chick" src="./Resources/MEDIA/HomePage/icons/chickHead.png" alt="">
+          <img class="elo" src="./Resources/MEDIA/HomePage/icons/eloHead.png" alt="">
+          <img class="kal" src="./Resources/MEDIA/HomePage/icons/kalHead.png" alt="">
+        </div>
+      </div>
+      <form action="https://postmail.invotes.com/send" class="decor" method="post" id="email_form">
+      
+        <div class="form-left-decoration"></div>
+        <div class="form-right-decoration"></div>
+        <div class="circle"></div>
+        <div class="form-inner">
+        
+          <input type="hidden" name="subject" value="Messaggio da inaran.it" />
+        <!--
+          <input type="text" placeholder="Username">
+           -->
+          <input type="email" name="reply_to" placeholder="Email" required>
+          
+          <textarea name="text" placeholder="Messaggio..." rows="5" required></textarea>
+          <input type="hidden" name="access_token" value="8rnckt4ap7ddt9usgm3dqz96" />
+            <!-- return urls can be fully qualified -OR-
+                start with / for root relative -OR-
+                start with . for url relative 
+                
+                ToDo:
+                --> 
+          <input type="hidden" name="success_url" value="/formSuccess.html" />
+          <input type="hidden" name="error_url" value="/formError.html" />
+          
+          
+          <input id="submit_form" type="submit" value="Invia"/>
+          
+        </div>
+      </form>
+    </footer>
+    
+    <!-- optional, prevents the submit button from being pressed more than once -->
+    <script>
+	    var submitButton = document.getElementById("submit_form");
+	    var form = document.getElementById("email_form");
+	    form.addEventListener("submit", function (e) {
+	        setTimeout(function() {
+	            submitButton.value = "Sending...";
+	            submitButton.disabled = true;
+	        }, 1);
+	    });
+    </script> 
+    <script src="./Resources/JS/jquery350.js"></script>
+    <script src="./Resources/JS/menu.js"></script>
+  </body>
+</html>
