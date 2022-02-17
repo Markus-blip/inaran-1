@@ -1,6 +1,7 @@
+
 ---
-name: "Inàran"
-url: "Inàran"
+name: "Inaran"
+url: "Inaran"
 hidden: false
 versions:
   - "1.18"
@@ -12,9 +13,9 @@ staff:
     - "e5942acc6328473cb5e066fc5b6f128c"
     - "b03d7914d65347d9975f31c8e2296bd7"
     - "012ddb17020b4ef89e8265e3936df36b"
+favicon: "https://inaran.it/Resources/MEDIA/Favicons/Inaran_logo_symbol_64x64.png"
 discord_user: "Eloreth#2952"
 www: "https://www.inaran.it"
-forum: "https://kalsett.github.io/inaran/forum.html"
 telegram: "https://t.me/+Tjzm0ygdQAwyRsXp"
 discord: "https://discord.gg/JjcJXDT9fv"
 theme_color: "#4d3187"
@@ -28,7 +29,7 @@ meta_description: "Il nostro server offre un’esperienza di gioco simile a quel
 
 ![Server logo](https://kalsett.github.io/inaran/Resources/MEDIA/HomePage/photo/Header.jpg)
 
-#### Inàran - Server di minecraft con i baffi
+#### Inaran - Server di minecraft con i baffi
 
 Il nostro server offre un’esperienza di gioco simile a quella che si avverte giocando la classica vanilla survival in single player, con in aggiunta alcuni elementi che migliorano e promuovono l’esperienza multiplayer. Potrete scegliere di fare parte di una delle quattro nazioni dominanti costantemente in guerra tra loro, costruendo da soli o in compagnia e onorandola con la vita dei vostri nemici, oppure diventare un nomade e vivere una vita tranquilla e pacifica, al riparo da scontri ma ricoprendo comunque un ruolo attivo nella comunità.  {:.text-left}
 
