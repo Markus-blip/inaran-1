@@ -1,8 +1,7 @@
----
-test: 1
+TEST 2
 ---
 categories: 
-  - vanilla3
+  - vanilla4
   - survival
 discord: "https://discord.gg/JjcJXDT9fv"
 discord_user: "Eloreth#2952"
