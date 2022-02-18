@@ -74,7 +74,7 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #4d3187;
-  text-shadow: 0.1px 0.1px 0.1px;
+  text-shadow: 0.1px 0.1px 0.1px #4d3187;
   font-weight: 700;
 }
 
@@ -134,6 +134,10 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#headerRegolamento {
+  background-image: url(../MEDIA/HomePage/photo/Sala\ Ognidove.jpg);
 }
 
 .headerIcon {
