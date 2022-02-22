@@ -37,3 +37,12 @@ input[type=number]::-webkit-inner-spin-button {
   padding-top: 1.5rem;
   padding-bottom: 1rem;
 }
+
+span .evidenziato {
+  font-weight: bold;
+  color: rgb(40, 40, 40);
+}
+
+span .evidPurple {
+  color: rgb(77, 49, 135);
+}
