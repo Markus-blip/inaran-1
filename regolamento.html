@@ -57,6 +57,7 @@
 
     <!-- CSS -->
     <link href="./Resources/CSS/home.css" type="text/css" rel="stylesheet" />
+    <link href="./Resources/CSS/netherCalculator.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
 
@@ -174,6 +175,35 @@
           </ul>
           <br>
           <hr class="aQuarterLine">
+          <br>
+          <div class="netherCalculator">
+            <div class="overworld">
+              <h3>Usa il calcolatore sotto per aiutarti a trovare le coordinate giuste per i tuoi portali del Nether</h3>
+              <br>
+              <p>Il ghiaccio su cui si posano le barche nelle ghiacciovie principali si trova ad altezza 116.</p>
+              <p>Consigliamo quindi di posare la base di ossidiana per il portale del Nether e il ghiaccio per le proprie ghiacciovie nel livello sopra ad altezza 115.</p>
+              <p>Per misurare in maniera precisa, in game schiaccia F3 e cerca nella parte destra la voce Targeted Block.</p>
+              <p>Qui ti verranno indicate le coordinate X, Y e Z del blocco esatto che stai puntando.</p>
+              <br>
+              <h3 class="purple">Overworld </h3>
+              <!-- <label for="">Overworld </label> -->
+              <input type="number" name="xCoordO" id="xCoordO" placeholder="X">
+              <input type="number" name="yCoordO" id="yCoordO" placeholder="Y">
+              <input type="number" name="zCoordO" id="zCoordO" placeholder="Z">
+            </div>
+            <div class="nether">
+              <br>
+              <h3 class="purple">Nether </h3>
+              <!-- <label for="">Nether </label> -->
+              <input type="number" name="xCoordN" id="xCoordN" placeholder="-X-">
+              <input type="number" name="yCoordN" id="yCoordN" placeholder="-Y-">
+              <input type="number" name="zCoordN" id="zCoordN" placeholder="-Z-">
+              <br>
+            </div>
+            
+          </div> 
+          <br>
+          <hr class="aQuarterLine">
         </div>
       </section>
       <div class="spaces"></div>
@@ -289,5 +319,6 @@
     </script> 
     <script src="./Resources/JS/jquery350.js"></script>
     <script src="./Resources/JS/menu.js"></script>
+    <script src="./Resources/JS/portali.js"></script>
   </body>
 </html>

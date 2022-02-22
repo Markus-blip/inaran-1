@@ -64,7 +64,6 @@ btnLU[3].addEventListener("mouseout", function(event) {
 // Funzione che copia il testo premendo un pulsante
 // per funzionare ha bisogno di un elemento input con il testo dentro, io lo creo, copio e distruggo all'istante
 function copyText() {
-  console.log('ciao');
   let copyText = document.getElementById("indIP").innerHTML;
   $('<input type="text" id="eliminare" value="'+copyText+'">').appendTo('body').select();
   document.execCommand("copy");
