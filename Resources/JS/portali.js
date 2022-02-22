@@ -50,13 +50,15 @@ function distGhiaVia(x,y,z) {
     x = x[0];
   }
   // rad[(x1-x-5)^2]
-  let distXs = Math.sqrt(Math.pow(-96-x-5, 2));
-  let distZs = Math.sqrt(Math.pow(356-z-5, 2));
+  let distXs = Math.sqrt(Math.pow((-96-x), 2))-4;
+  let distZs = Math.sqrt(Math.pow((356-z), 2))-4;
 
   let minDist;
   let maxDist;
   let ghiacVicina;
   let ghiacLontana;
+  let puntoCardinaleV;
+  let puntoCardinaleL;
 
   if (distXs-distZs>=0) {
     minDist = distZs;
@@ -74,8 +76,28 @@ function distGhiaVia(x,y,z) {
     if (x>-96) ghiacLontana = 'verde';
   }
 
-   return `Sei distante ${minDist} blocchi dalla ghiacciovia ${ghiacVicina}
-   Altrimenti la seconda opzione più vicina è ${maxDist} blocchi dalla ghiacciovia ${ghiacLontana}`;
+  if (ghiacVicina === 'rossa' && z<356) puntoCardinaleV = 'sud';
+  if (ghiacVicina === 'rossa' && z>356) puntoCardinaleV = 'nord';
+  if (ghiacVicina === 'verde' && z<356) puntoCardinaleV = 'sud';
+  if (ghiacVicina === 'verde' && z>356) puntoCardinaleV = 'nord';
+  if (ghiacVicina === 'azzurra' && x<-96) puntoCardinaleV = 'est';
+  if (ghiacVicina === 'azzurra' && x>-96) puntoCardinaleV = 'ovest';
+  if (ghiacVicina === 'gialla' && x<-96) puntoCardinaleV = 'est';
+  if (ghiacVicina === 'gialla' && x>-96) puntoCardinaleV = 'ovest';
+
+  // --- // --- //
+
+  if (ghiacLontana === 'rossa' && z<356) puntoCardinaleL = 'sud';
+  if (ghiacLontana === 'rossa' && z>356) puntoCardinaleL = 'nord';
+  if (ghiacLontana === 'verde' && z<356) puntoCardinaleL = 'sud';
+  if (ghiacLontana === 'verde' && z>356) puntoCardinaleL = 'nord';
+  if (ghiacLontana === 'azzurra' && x<-96) puntoCardinaleL = 'est';
+  if (ghiacLontana === 'azzurra' && x>-96) puntoCardinaleL = 'ovest';
+  if (ghiacLontana === 'gialla' && x<-96) puntoCardinaleL = 'est';
+  if (ghiacLontana === 'gialla' && x>-96) puntoCardinaleL = 'ovest';
+
+  return `Sei distante ${minDist} blocchi dalla ghiacciovia ${ghiacVicina} verso ${puntoCardinaleV}. 
+  Altrimenti la seconda opzione più vicina è ${maxDist} blocchi dalla ghiacciovia ${ghiacLontana} a ${puntoCardinaleL}.`;
 
 }
 
