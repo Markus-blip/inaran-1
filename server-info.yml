@@ -3,7 +3,7 @@ name: "Inàran"
 url: "Inàran"
 hidden: false
 versions:
-  - "1.18"
+  - "1.18.1"
 categories:
   - "vanilla"
   - "survival"
