@@ -49,7 +49,6 @@ function distGhiaVia(x,y,z) {
     z = x[2];
     x = x[0];
   }
-  // rad[(x1-x-5)^2]
   let distXs = Math.sqrt(Math.pow((-96-x), 2))-4;
   let distZs = Math.sqrt(Math.pow((356-z), 2))-4;
 
@@ -96,7 +95,7 @@ function distGhiaVia(x,y,z) {
   if (ghiacLontana === 'gialla' && x<-96) puntoCardinaleL = 'est';
   if (ghiacLontana === 'gialla' && x>-96) puntoCardinaleL = 'ovest';
 
-  return `Sei distante ${minDist} blocchi dalla ghiacciovia ${ghiacVicina} verso ${puntoCardinaleV}. 
+  return `Rispetto alle coordinate ${x} 116 ${z} del Nether, sei distante ${minDist} blocchi dalla ghiacciovia ${ghiacVicina} verso ${puntoCardinaleV}. 
   Altrimenti la seconda opzione più vicina è ${maxDist} blocchi dalla ghiacciovia ${ghiacLontana} a ${puntoCardinaleL}.`;
 
 }
