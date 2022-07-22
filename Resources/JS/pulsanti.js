@@ -24,7 +24,7 @@ btnLU[0].addEventListener("mouseout", function(event) {
 btnLU[1].addEventListener("mouseover", function(event) {
   btnT[1].style.backgroundColor = "#4d3187";
   btnA[1].style.backgroundColor = "#293556";
-  btnTC[1].innerHTML = '51.81.77.252:5183';
+  btnTC[1].innerHTML = '51.68.37.67:5183';
 }, false);
 
 btnLU[1].addEventListener("mouseout", function(event) {
