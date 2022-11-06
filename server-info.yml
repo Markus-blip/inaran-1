@@ -2,7 +2,7 @@
 ---
 name: "Inaran"
 url: "Inaran"
-hidden: false
+hidden: true
 versions:
   - "1.19"
 categories:
